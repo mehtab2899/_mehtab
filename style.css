@@ -584,8 +584,8 @@ textarea.input100 {
 }
 
 .contact100-form-btn:hover {
-	color: #ff4c60;
-	background-color: white;
+	color: white;
+	background-color: #282642;
 }
 
 .p-email a {
