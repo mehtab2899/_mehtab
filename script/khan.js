@@ -105,23 +105,3 @@ $(function() {
 })();
 
 // hamburger menu
-
-$(function() {
-	var navMain = $('.navbar-collapse');
-	navMain.on('click', 'a:not([data-toggle])', null, function() {
-		navMain.collapse('hide');
-	});
-});
-
-// $('.works2').isotope({
-// 	itemSelector: '.imgbox'
-// });
-// $('.works-menu ul li').click(function() {
-// 	$('.portfolio-menu ul li').removeClass('active2');
-// 	$('this').addClass('active2');
-// 	var selector = $(this).attr('data-filter');
-// 	$('.works').isotope({
-// 		filter: selector
-// 	});
-// 	return false;
-// });

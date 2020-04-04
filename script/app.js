@@ -57,3 +57,10 @@ function saveMessage(name, email, subject, message) {
 		message: message
 	});
 }
+
+$(function() {
+	var navMain = $('.navbar-collapse');
+	navMain.on('click', 'a:not([data-toggle])', null, function() {
+		navMain.collapse('hide');
+	});
+});
