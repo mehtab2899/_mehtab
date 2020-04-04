@@ -729,3 +729,9 @@ footer p {
 #myBtn:hover {
 	background-color: #ff4c60;
 }
+
+@media only screen and (max-width: 425px) {
+	#myBtn {
+		right: 10px;
+	}
+}
