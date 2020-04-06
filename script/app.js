@@ -31,6 +31,7 @@ function submitForm(e) {
 	saveMessage(name, email, subject, message);
 
 	// Clear form
+	// $('#contactForm').trigger('reset');
 	document.getElementById('contactForm').reset();
 }
 
@@ -49,7 +50,6 @@ function saveMessage(name, email, subject, message) {
 		message: message
 	});
 }
-
 // //////////////////////////////////////////////////////////////////////////////
 // hamburger menu
 

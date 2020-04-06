@@ -75,5 +75,3 @@
 		$(thisAlert).find('.btn-hide-validate').remove();
 	}
 })(jQuery);
-
-// hamburger menu
