@@ -104,4 +104,4 @@ $(function() {
 	button.addEventListener('click', toggle, false);
 })();
 
-// hamburger menu
+// preloader
