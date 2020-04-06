@@ -50,6 +50,9 @@ function saveMessage(name, email, subject, message) {
 	});
 }
 
+// //////////////////////////////////////////////////////////////////////////////
+// hamburger menu
+
 $(function() {
 	var navMain = $('.navbar-collapse');
 	navMain.on('click', 'a:not([data-toggle])', null, function() {
