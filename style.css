@@ -21,7 +21,7 @@ body {
 /* ******************************* scroll bar ******************************** */
 
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -29,7 +29,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-	border-radius: 10px;
+	border-radius: 8px;
 	background-color: rgba(255, 174, 0, 0.815);
 }
 
