@@ -84,7 +84,7 @@ nav ul li a.active {
 
 /* @media only screen and (max-width: 1440px) { */
 .bg-video {
-  display: block;
+  /* display: bloc */
   position: absolute;
   top: 0;
   left: 0;
