@@ -82,10 +82,6 @@ nav ul li a.active {
   display: none;
 }
 
-.bg-video__content {
-  display: none;
-}
-
 @media only screen and (max-width: 1440px) {
   .bg-video {
     display: block;
