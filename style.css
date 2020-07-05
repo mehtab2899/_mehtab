@@ -78,30 +78,6 @@ nav ul li a.active {
 
 /* ******************************* profile ******************************** */
 
-.bg-video {
-  display: none;
-}
-
-@media only screen and (max-width: 1440px) {
-  .bg-video {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0.15;
-    z-index: -100;
-    overflow: hidden;
-  }
-
-  .bg-video__content {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-}
-
 .home {
   margin-top: 140px;
   height: 100%;
