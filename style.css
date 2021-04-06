@@ -727,6 +727,10 @@ footer p {
 	color: gray;
 }
 
+.para {
+	font-size: 0.9rem;
+}
+
 /* ************Bottom-top scroll button********* */
 
 #myBtn {
