@@ -1,16 +1,9 @@
-@font-face {
-	font-family: SourceSansPro-Regular;
-	src: url("../fonts/source-sans-pro/SourceSansPro-Regular.ttf");
-}
-
-@font-face {
-	font-family: SourceSansPro-Bold;
-	src: url("../fonts/source-sans-pro/SourceSansPro-Bold.ttf");
-}
-
-@font-face {
-	font-family: JosefinSans-Bold;
-	src: url("../fonts/JosefinSans/JosefinSans-Bold.ttf");
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -60,14 +53,14 @@ nav a h1 span {
 	font-weight: bold;
 }
 
-nav div ul li a {
+nav ul li a {
 	color: #282642 !important;
 	font-size: 20px;
 	font-weight: bold;
 	margin: 10px;
 }
 
-nav div ul li a:hover {
+nav ul li a:hover {
 	color: rgba(255, 174, 0, 0.815) !important;
 }
 
@@ -76,7 +69,7 @@ nav ul li a.active {
 }
 
 @media only screen and (max-width: 766px) {
-	nav div ul li a {
+	nav ul li a {
 		margin: 0px;
 	}
 }
@@ -709,7 +702,6 @@ textarea.input100 {
 	right: 28px;
 }
 
-/*---------------------------------------------*/
 @media (max-width: 576px) {
 	.alert-validate::before {
 		padding: 0 30px 0 10px;
@@ -731,7 +723,7 @@ footer p {
 	font-size: 0.9rem;
 }
 
-/* ************Bottom-top scroll button********* */
+/* ************ Bottom-top scroll button ********* */
 
 #myBtn {
 	display: none;
@@ -758,5 +750,3 @@ footer p {
 		right: 10px;
 	}
 }
-
-/* //////////////////////////////////////// */
